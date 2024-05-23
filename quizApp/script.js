@@ -66,9 +66,9 @@ function showResults() {
 
         if (userAnswer === currentQuestion.correct) {
             numCorrect++;
-            answerContainers[questionNumber].style.color = 'green';
+            answerContainers[questionNumber].style.color = 'green'; 1+
         } else {
-            answerContainers[questionNumber].style.color = 'red';
+            answerContainers[questionNumber].style.color = 'red'; 3+
         }
     });
 
